@@ -8,9 +8,9 @@ SELECT name, price FROM products ORDER BY price
 -- make a list from the producs with the most recents on top
 SELECT * FROM products ORDER BY id DESC
 
--- select all products from the category 'voedsel'
+-- select all products from the category 'food'
 -- if the result is empty no error, just blank tables
-SELECT * FROM products WHERE category = 'voedsel'
+SELECT * FROM products WHERE category = 'food'
 
 -- select all products that cost more then 10 EURO
 SELECT * FROM products WHERE price > 10;
